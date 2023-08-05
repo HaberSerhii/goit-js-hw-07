@@ -18,7 +18,7 @@
           <a
             href="https://haberserhii.github.io/goit-js-hw-07/"
             style="color: #38bdae; text-decoration: none"
-            >Homework #06 (click)</a
+            >Homework #07 (click)</a
           >
         </li>
       </ul>
