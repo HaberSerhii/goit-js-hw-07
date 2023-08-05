@@ -20,8 +20,6 @@ function createMarkup(arr) {
     .join("");
 }
 galleryListItem.insertAdjacentHTML("beforeend", createMarkup(galleryItems));
-
-const galleryLink = document.querySelector(".gallery__link");
 galleryListItem.addEventListener("click", function (clickEvent) {
   clickEvent.preventDefault();
   if (clickEvent.target === clickEvent.currentTarget) {
