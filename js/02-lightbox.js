@@ -1,5 +1,5 @@
 import { galleryItems } from "./gallery-items.js";
-// Change code below this line
+
 const galleryListItem = document.querySelector(".gallery");
 
 function createMarkup(arr) {
@@ -21,18 +21,6 @@ function createMarkup(arr) {
     .join("");
 }
 galleryListItem.insertAdjacentHTML("beforeend", createMarkup(galleryItems));
-
-// galleryListItem.addEventListener("click", function (clickEvent) {
-//   clickEvent.preventDefault();
-//   if (clickEvent.target === clickEvent.currentTarget) {
-//     return;
-//   }
-//   new SimpleLightbox(".gallery__item a", {
-//     captionsData: "alt",
-//     captionPosition: "bottom",
-//     captionDelay: 250,
-//   });
-// });
 
 const lightBox = new SimpleLightbox(".gallery__item a", {
   captionsData: "alt",
